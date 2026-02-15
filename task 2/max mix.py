@@ -1,4 +1,4 @@
-﻿numbers = list(map(int, input("enter the list elements (space-separated): ").split()))
+numbers = [45, 22, 89, 10, 66]
 # initialize max and min values
 max_val = numbers[0]
 min_val = numbers[0]
@@ -8,6 +8,7 @@ for n in numbers:
         max_val = n
     if n < min_val:
         min_val = n
-#print the max and min values
+#print the list ,max and min values
+print("List:", numbers)
 print("Maximum value:", max_val)
 print("Minimum value:", min_val)
